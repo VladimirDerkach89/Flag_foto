@@ -1,5 +1,6 @@
 from PIL import Image, ImageDraw, ImageFont
 
+
 # Увеличиваем размер изображения
 image = Image.new('RGB', (1400, 1600), color=(255, 255, 255))
 draw = ImageDraw.Draw(image)
